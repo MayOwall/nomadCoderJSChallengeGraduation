@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  padding: 3rem 5rem;
+}
+img {
+  width: 50%;
+}
+form {
+  margin: 3rem 0;
+}
+button {
+  border: none;
+  border-radius: 50%;
+  opacity: 50%;
+}
+button:active {
+  opacity: 100%;
+}
+
+.section {
+  margin: 1rem 0;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.title {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  color: lightgray;
+}
+.hidden {
+  display: none;
+}
+
+#quotes div:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#quotes div:nth-child(3) {
+  font-size: 0.8rem;
+  color: gray;
+}
+#quotes div:last-child {
+  padding: 0.3rem 0;
+}
+
+#todo-form {
+  margin: 1rem 0;
+}
+
+#todo-list button {
+  margin: 0 1rem;
+}
+
+#clock {
+  font-size: 3rem;
+}
