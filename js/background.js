@@ -2,7 +2,7 @@ const images = ["아기오구_가을준비.jpeg", "아기오구_독서.jpg", "�
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
-bgImage.src = `nomadCoderJSChallengeGraduation/img/${chosenImage}`;
+bgImage.src = `https://mayowall.github.io/nomadCoderJSChallengeGraduation/img/${chosenImage}`;
 
 const bgTitle = document.createElement("div");
 bgTitle.className = "title";
