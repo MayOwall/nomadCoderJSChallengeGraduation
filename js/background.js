@@ -2,7 +2,11 @@ const images = ["아기오구_가을준비.jpeg", "아기오구_독서.jpg", "�
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
+bgImage.src = `img/${chosenImage}`;
 
-bgImage.src = `./img/${chosenImage}`;
+const bgTitle = document.createElement("div");
+bgTitle.className = "title";
+bgTitle.innerText = "[ BACKGROUND IMAGE ]";
 
+document.body.appendChild(bgTitle);
 document.body.appendChild(bgImage);

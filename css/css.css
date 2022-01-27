@@ -35,6 +35,9 @@ button:active {
   display: none;
 }
 
+#clock-form h2 {
+  margin: 0;
+}
 #quotes div:nth-child(2) {
   font-size: 1.5rem;
   font-weight: 700;

@@ -1,3 +1,6 @@
+/*
+목표 : 아이디를 입력하고, login버튼을 누르면, 기존의 로그인박스는 사라지고, hello (아이디)가 나타나도록 하기.
+*/
 const CLASSNAME_HIDDEN = "hidden";
 const USERNAME_KEY = "username";
 
