@@ -20,11 +20,11 @@ function onloginHandler(event) {
   const username = loginText.value;
   localStorage.setItem(USERNAME_KEY, username);
   //greeting 나타나게 만들기
-  showingGreeting();
+  showingGreeting(username);
 };
 
-function showingGreeting() {
-  greeting.innerText = `Hello, ${savedUsername}!`;
+function showingGreeting(event) {
+  greeting.innerText = `Hello, ${event}!`;
   greeting.classList.remove(CLASSNAME_HIDDEN);
 };
 
@@ -33,5 +33,5 @@ if(savedUsername === null) {
   loginForm.classList.remove(CLASSNAME_HIDDEN);
   loginForm.addEventListener("submit", onloginHandler);
 } else {
-  showingGreeting();
+  showingGreeting(savedUsername);
 };
